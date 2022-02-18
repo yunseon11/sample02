@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width:1200px) {
+  header>div{
+    width: 1200px;
+  }
+  aside{
+    width:1200px;
+  }
+}
+
+@media screen and (max-width:1199px) and (min-width:980px) {
+  header>div{
+    width:98%; /*1200px;*/
+  }
+  section>form{
+    width: 89.16666% /*1070px*/;
+    margin: 0 auto;
+    padding: 150px 0 90px;
+    background-color: rgba(225,255,255,0.3);
+  }
+  aside{
+    width:98%; /*1200px*/
+  }
+
+}
+
+@media screen and (max-width:979px){
+  header{
+    /* width:auto */
+     height: auto;
+     background-color: transparent;
+     box-shadow: none;
+  }
+  header>div>h1{
+    float: left;
+    margin-left: 40px;
+  }
+  nav{
+    float: none;
+    position: fixed;
+    right: 0; top: 0;
+    width: 340px;
+    height: 100%;
+    padding-top: 140px;
+    box-sizing: border-box;
+    background-color: rgba(73,43,29,0.8);
+    z-index: 999;
+    display: none;
+  }
+  nav>ul{
+    width: 260px;
+    margin: 0 auto;
+  }
+  nav>ul>li{
+    display: block;
+    margin-left:0px;
+    border-bottom: 1px solid #fff;}
+  nav>ul>li>a{
+    font:16px/100px Arial,sans-serif;
+    color:#fff;
+  }
+
+  nav>p#close{
+    display: block;
+    position: absolute;
+    left:40px; top:40px;
+  }
+  header>div>p#btn{
+    display: block;
+    float: right;
+    margin-right: 40px;
+    width: 50px; height: 40px;
+    position: relative;
+  }
+  header>div>p#btn>span{
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    height: 4px;
+    left: 0; top: 0;
+    position: absolute;
+    border-radius: 2px;
+  }
+  header>div>p#btn>span:nth-child(2){top:45%;}
+  header>div>p#btn>span:nth-child(3){bottom: 0; top: auto;}
+
+  section{
+    padding: 98px 0 309px;
+  }
+  section>form{
+    width: 86.1224489%; /*844px*/
+    margin: 0 auto;
+    padding: 60px 0 52px;
+  }
+  section>form>fieldset{
+    width: 86.9668246; /*734px*/
+    margin:0 auto;
+  }
+  section>form ul>li{
+    padding-left: 0px;
+    position: relative;
+  }
+  section>form ul>li>label{
+    position: absolute;
+    left: 0; top: 0;
+    width: auto; height:auto;
+    border-radius: 0px 0 0 0px;
+    background: none;
+    text-indent: 16px;
+    font: 20px/50px Arial,sans-serif;
+    color: red;
+  }
+
+  section>form ul>li:nth-child(2)>label{
+    background-image: none;
+  }
+  section>form ul>li:nth-child(3)>label{
+    background-image: none;
+  }
+  section>form ul>li:nth-child(4)>label{
+    background-image: none;
+  }
+  aside{
+    display: none;
+  }
+  footer{
+    padding-bottom: 50px;
+  }
+
+
+
+}
